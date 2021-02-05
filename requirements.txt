@@ -1,0 +1,17 @@
+[x]  Als gebruiker wil ik een lijst kunnen zien met beschikbare films met de poster van de film (in database links naar posters)
+[x]  Als gebruiker wil ik films kunnen filteren door middel van radiobuttons - er kan maar één filter tegelijk gebruikt worden
+[x]  De filters zijn:
+
+        [x]  Nieuwste films (films uit 2014 of later)
+        [x]  Films met "Avengers" in de titel.
+        [x]  Films met "X-men" in de titel.
+        [x]  Films met "Princess" in de titel.
+        [x]  Films met "Batman" in de titel.
+
+[x]  Filters dmv array methods (gebruik .includes om te checken of een deel van een string in een andere string aanwezig is)
+[x]  comprimeer de laatste vier filters tot één functie die je op verschillende manieren aanroept
+[x]  Als gebruiker kan ik op de filmposter klikken waardoor ik naar de imdb-pagina van de film wordt gebracht
+
+Bonus
+
+[x]  Als gebruiker kan ik in een inputfield de titel van een film invullen, wanneer ik op enter druk worden de films gefilterd op de titel die ik heb ingevuld.

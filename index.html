@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winc Filmzoeker</title>
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Filmzoeker</h1>
+    </header>
+    <main>
+        <nav>
+            <div class="radio-menu">
+                <div>
+                    <input type="radio" id="new" name="film-filter" value="new">
+                    <label for="new">Nieuwste films</label>
+                </div>
+                <div>
+                    <input type="radio" id="avengers" name="film-filter" value="avengers">
+                    <label for="avengers">Avengers films</label>
+                </div>
+                <div>
+                    <input type="radio" id="x-men" name="film-filter" value="x-men">
+                    <label for="x-men">X-Men films</label>
+                </div>
+                <div>
+                    <input type="radio" id="princess" name="film-filter" value="princess">
+                    <label for="princess">Films over prinsessen</label>
+                </div>
+                <div>
+                    <input type="radio" id="batman" name="film-filter" value="batman">
+                    <label for="batman">Batman films</label>
+                </div>
+                <div>
+                    <input type="radio" id="all" name="film-filter" value="all">
+                    <label for="batman">Alle films</label>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" id="input-field">
+                <button id="search-button">Zoek</button>
+            </div>
+        </nav>
+
+        <div class="container">
+            <ul class="movies-list">
+
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
